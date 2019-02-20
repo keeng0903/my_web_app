@@ -6,20 +6,27 @@ p{
   text-align: justify;
 }
 body{
-  color : white;
-  background-color: blue;
+  color : #ff9966;
+  background-color: #003333;
   font-family: "my-font";
+  font-size: 30px;
+  /*max-width: 100%;*/
 }
 figcaption{
   text-align: center;
-  font-style: italic;
-  font-size: 70px;
+  font-style: normal;
+  font-size: 50px;
 }
 figure{
-  border-top: 5px solid #fff;
-  border-bottom: 5px solid #fff;
-  border-radius: 40px;
-  padding: 10px 20px 5px 40px;
-  margin: 100px;
-  text-align: left;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-left: 20px solid #fff;
+  border-bottom: 20px solid #fff;
+  /*border-radius: 50px;*/
+  border-style: dashed;
+  padding: 30px 20px 30px 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  /*width: 100%;*/
 }
