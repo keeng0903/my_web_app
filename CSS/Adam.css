@@ -6,6 +6,7 @@ p{
   text-align: justify;
 }
 h3{
+  text-align: left;
   border-bottom: 2px solid #4d4d4d;
 }
 body{
@@ -27,6 +28,7 @@ figure{
   width: 100%;
 }
 h6{
+  text-align: right;
   border-right: 10px solid #4d4d4d;
   border-radius: 25px;
   padding-right: 10px;

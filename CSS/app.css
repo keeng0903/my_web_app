@@ -29,6 +29,9 @@ figure{
 h4{
   border-bottom: 3px solid #4d4d4d;
 }
+h3{
+  text-align:center;
+}
 h6{
   text-align: right;
   font-size: 15px;
