@@ -1,41 +1,36 @@
 @font-face {
-  font-family: "Computer";
+  font-family: "courier";
   src: url("../fonts/PatrickHandSC-Regular.ttf");
 }
 p{
   text-align: justify;
 }
+h3{
+  text-align: left;
+  border-bottom: 2px solid #4d4d4d;
+}
 body{
-  color : #4d004d;
-  background-color: #999966;
-  font-family: "Arial";
+  font-family: "Times New Roman";
+  color:#000066;
+  background-color:#999966;
   max-width: 100%;
-  font-size: 20px;
 }
 figcaption{
-  text-align: center;
-  font-family: cursive;
-  font-size: 30px;
+  font-family:"Times New Roman";
 }
 figure{
-  border-bottom: 10px solid #4d4d4d;
+  border-left: 10px solid #4d4d4d;
   border-radius: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+  width: 100%;
+}
+h5{
   text-align: center;
-}
-h4{
-  border-bottom: 3px solid #4d4d4d;
-}
-h3{
-  text-align:center;
-}
-h6{
-  text-align: right;
-  font-size: 15px;
-  border-style: inset;
-  padding-right: 10px;
-  margin-left: 1000px;
+  font-size: 30px;
+  border-style: dotted;
+  margin-top: 50px;
+  padding-top: 4px;
 }
