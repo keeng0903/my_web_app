@@ -1,16 +1,32 @@
 .People{
-  margin: 19px 0 19px 0;
-  padding: 19px 19px 28px 19px;
-  background-color: #ffcccc;
-  color: #cc99ff
+  margin: 10px 0 19px 0;
+  padding: 3px 19px 3px 19px;
 }
-body{
-  color: ;
+
+#Kazuo{
+  background-color: #cc66ff;
 }
-#Adam{
-  background-color: #4775d1;
+
+#JackMa{
+  background-color: #ff661a;
+}
+
+#Dieter{
+  background-color: #9999ff;
+}
+
+#Thao{
+  background-color: #6697cc;
+}
+
+video{
+  width: 50%;
+  height: 40%;
+}
+
+.me{
+  background: #9494b8;
   color: #000066;
-}
-audio,video{
-  width: 40%;
+  margin: 20px 0 19px 0;
+  padding: 20px 19px 3px 19px;
 }
