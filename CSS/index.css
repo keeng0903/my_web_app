@@ -30,3 +30,27 @@ video{
   margin: 20px 0 19px 0;
   padding: 20px 19px 3px 19px;
 }
+#Kazuo figure{
+  border-color: #660066;
+  border-right: 10px solid;
+  border-radius: 50px;
+  background-color: #003399;
+}
+#JackMa figure{
+  border-color: #003366;
+  background-color: #993333;
+  border-right: 10px solid;
+  border-radius: 50px;
+}
+#Dieter figure{
+  border-color: #663300;
+  background-color: #006666;
+  border-right: 10px solid;
+  border-radius: 50px;
+}
+#Thao figure{
+  border-color: #003300;
+  background-color: #993366;
+  border-right: 10px solid;
+  border-radius: 50px;
+}
