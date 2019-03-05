@@ -1,8 +1,6 @@
 window.onload= function(){
   //alert("Hello!");
   var tds = document.getElementsByTagName('td');
-  var hightlighteds = document.getElementsByClassName('hightlighted');
-  var myTd = document.getElementById('my-id');
 
   for(var i = 0; i < tds.length; i++){
     tds[i].addEventListener('click', function(event){
@@ -16,12 +14,8 @@ window.onload= function(){
       this.classList.add('highlighted');
     });
   }
-}
 
-window.onload= function(){
-  //alert("Hello!");
   var trs = document.getElementsByTagName('tr');
-  var hightlighteds = document.getElementsByClassName('hightlighted');
   var myTd = document.getElementById('my-id');
 
   for(var i = 0; i < trs.length; i++){

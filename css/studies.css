@@ -9,13 +9,21 @@ th, td {
   border-bottom: 1px solid black;
 }
 
-tr:nth-child(even){background-color: #999966}
-td:first-child,td:nth-child(3),td:nth-child(4){text-align: center;}
-.highlighted{
-  background-color: blue;
+tr:nth-child(even){
+  background-color: #999966;
+}
+
+td:first-child, td:nth-child(3), td:nth-child(4){
+  text-align: center;
+}
+
+/* .highlighted{ */
+tbody > tr:hover {
+  background-color: #00f;
   color: #fff;
   font-weight: bold;
 }
+
 #my-id{
   background-color:#3366cc ;
   color: #ffcc66;
@@ -24,4 +32,11 @@ td:first-child,td:nth-child(3),td:nth-child(4){text-align: center;}
   height: 50px;
   padding: 25px;
   font-size: 25px;
+}
+
+.my-td-span {
+  background-color: #999966;
+  color: #fff;
+  font-weight: bold;
+  padding: 19px;
 }
