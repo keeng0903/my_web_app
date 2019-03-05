@@ -12,7 +12,16 @@ th, td {
 tr:nth-child(even){background-color: #999966}
 td:first-child,td:nth-child(3),td:nth-child(4){text-align: center;}
 .highlighted{
-  background-color: #f00;
+  background-color: blue;
   color: #fff;
   font-weight: bold;
+}
+#my-id{
+  background-color:#3366cc ;
+  color: #ffcc66;
+  border: 1px solid black;
+  margin:30px 0 30px 0;
+  height: 50px;
+  padding: 25px;
+  font-size: 25px;
 }
