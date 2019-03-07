@@ -37,6 +37,10 @@ figure{
   /*width: 100%;*/
 }
 
+img {
+  max-width: 100%;
+}
+
 h4{
   font-size: 20px;
 }

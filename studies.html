@@ -1,11 +1,13 @@
 <!DOCTYPE html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/studies.css">
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <title>
-      My Studies.
-    </title>
+    <head>
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <title>My studies</title>
+      <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+      <link rel="stylesheet" type="text/css" href="css/app.css">
+      <link rel="stylesheet"  type="text/css" href="css/studies.css">
   </head>
 
   <body>
@@ -16,26 +18,42 @@
     <table>
       <thead>
         <tr>
-          <th>Year</th>
-          <th>Name Of The Shool</th>
-          <th>Town</th>
-          <th>Country</th>
+          <th>Studies</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
           <td>
-            2006-2011
-          </td>
-          <td>
-            Doan Thi Diem-Primary Shool
-          </td>
-          <td rowspan="4">
-            Da Nang City
-          </td>
-          <td rowspan="4">
-            VietNamese
+            <div class="row">
+              <div class="col-md-2 col-sm-6 my-study">
+                <span class="my-header">YEAR</span>
+                <div class="my-content">
+                  <span class="btn btn-xs btn-success my-study-open">
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                  </span>
+                  <span class="btn btn-xs btn-danger my-study-close d-none">
+                    <i class="fas fa-caret-up" aria-hidden="true"></i>
+                  </span>
+                  <span>2006-2011</span>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">SCHOOL</span>
+                <div class="my-content">Doan Thi Diem-Primary Shool</div>
+              </div>
+
+              <div class="col-md-4 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">TOWN</span>
+                <div class="my-content">Đà Nẵng</div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 my-study my-study-detail my-study-detail-hidden">
+                <span class="my-header">COUNTRY</span>
+                <div class="my-content">Việt Nam</div>
+              </div>
+            </div>
           </td>
         </tr>
 
@@ -73,6 +91,8 @@
     </div>
 
     <script type="text/javascript" src="./scripts/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery/app.js"></script>
     <script type="text/javascript" src="./scripts/jquery/studies.js"></script>
   </body>
 </html>

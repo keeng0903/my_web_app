@@ -1,6 +1,19 @@
-.People{
-  margin: 10px 0 19px 0;
-  padding: 3px 19px 3px 19px;
+.people {
+  overflow: auto;
+  margin: 19px 0 19px 0;
+  padding: 19px 19px 28px 19px;
+}
+
+.name {
+  width: 30%;
+  float: left;
+  padding-right: 9px;
+}
+
+.biography {
+  width: 70%;
+  float: left;
+  padding-left: 9px;
 }
 
 #Kazuo{
