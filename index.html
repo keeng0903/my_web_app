@@ -26,7 +26,8 @@
     </h2>
 
     <figure>
-      <img src ="./images/thanhquang.jpg" alt ="Quang">
+      <img src ="./images/2.jpg" alt ="Quang" class="d-none d-sm-block">
+      <img src ="./images/thanhquang.jpg" alt ="Quang" class="d-block d-sm-none">
       <figcaption>
         (Q-Q-Q)
       <figcaption>
@@ -86,44 +87,44 @@
 
     <!-- People I admire -->
 
-    <div>
+    <div class="my-flexbox-container">
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           People 1
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
-          <a href="#top1">#</a>
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
+          <a href="#Kazuo">#</a>
         </button>
       </div>
 
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           People 2
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
-          <a href="#top2">#</a>
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
+          <a href="#JackMa">#</a>
         </button>
       </div>
 
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           People 3
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
-          <a href="#top3">#</a>
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
+          <a href="#Dieter">#</a>
         </button>
       </div>
 
       <div class="my-padding-right-19">
-        <button type="button" class="my-button-people-name">
+        <button type="button" class="my-button-people-name btn btn-secondary">
           People 4
         </button>
 
-        <button type="button" class="my-button-jump-to-people">
-          <a href="#top4">#</a>
+        <button type="button" class="my-button-jump-to-people d-none btn btn-secondary">
+          <a href="#Thao">#</a>
         </button>
       </div>
     </div>
@@ -133,7 +134,7 @@
     </h5>
     </div>
 
-    <div class="people" id="Kazuo">
+    <div class="people d-none" id="Kazuo">
       <div class="name">
         <h1 id="top1">
           The First Person
@@ -223,7 +224,7 @@
         </h5>
     </div>
 
-    <div class="people" id="JackMa">
+    <div class="people d-none" id="JackMa">
     <h1 id="top2">
       The Second Person
     </h1>
@@ -311,7 +312,7 @@
 
     </div>
 
-    <div class="people" id="Dieter">
+    <div class="people d-none" id="Dieter">
     <h1 id="top3">
       The Third Person
     </h1>
@@ -398,7 +399,7 @@
     </h5>
     </div>
 
-    <div class="people" id="Thao">
+    <div class="people d-none" id="Thao">
     <h1 id="top4">
       The Fourth Person
     </h1>
@@ -486,5 +487,6 @@
     <script type="text/javascript" src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./scripts/jquery/app.js"></script>
     <script type="text/javascript" src="./scripts/jquery/index.js"></script>
+    <script type="text/javascript" src="./scripts/modernizr/modernizr.mq.js"></script>
   </body>
 </html>

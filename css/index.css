@@ -67,3 +67,44 @@ video{
   border-right: 10px solid;
   border-radius: 50px;
 }
+.my-flexbox-container{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.name figcaption{
+  font-size: 12px;
+}
+@media screen and (min-width: 576px){
+  .name figcaption {
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 768px){
+  .name figcaption {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px){
+  .name figcaption {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1200px){
+  .name figcaption {
+    font-size: 60px;
+  }
+}
+.d-none{
+  display: none;
+}
+#JackMa img {
+  content: url("../images/1.jpg");
+}
+@media screen and (min-width: 576px){
+  #JackMa img {
+    content: url("../images/2.jpg");
+  }
+}
